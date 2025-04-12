@@ -45,7 +45,7 @@ Check out the live demo at: [https://mrtoronto.github.io/static-site-gen-demo/](
 
 - Built with vanilla JavaScript and HTML
 - Uses Tailwind CSS for styling
-- Integrates with OpenAI's GPT-4 API
+- Integrates with OpenAI's GPT-4o-mini API for now
 - Deployed using GitHub Pages
 - Local storage for saving API key and conversation history
 
@@ -60,6 +60,13 @@ To run this project locally:
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+### TODOs
+- Enable the LLM to edit a section of the code rather than rewriting the whole page
+    - Could be semantic sections (body, style, etc) or line-based sections (lines 100-200)
+- Enable the LLM to lookup relevant images for the page
+- Add a reset button
+- Add starting templates
 
 ## License
 
